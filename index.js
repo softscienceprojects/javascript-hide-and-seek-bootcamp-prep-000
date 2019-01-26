@@ -13,8 +13,6 @@ function nestedTarget() { //PASSING
 
 function increaseRankBy(n) {
   //increases the rank in all the .ranked-list by n
-  // analyse string, returns a number
-  var increaseRank = parseInt(n); //set a variable that parses the input
   const lis = document
       .getElementById('app')
       .querySelectorAll('ul.ranked-list li');
