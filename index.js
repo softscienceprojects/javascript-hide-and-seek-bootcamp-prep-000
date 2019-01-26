@@ -14,14 +14,14 @@ function nestedTarget() { //PASSING
 function increaseRankBy(n) {
   //increases the rank in all the .ranked-list by n
   // analyse string, returns a number
-//  var increaseRank = parseInt(n); //set a variable that parses the input
+  var increaseRank = parseInt(n); //set a variable that parses the input
   const lis = document
       .getElementById('app')
       .querySelectorAll('ul.ranked-list li');
 
     for (let i = 0; i < lis.length; i++) {
     //  lis[i].innerHTML = (i + increaseRank).toString();
-      lis[i].innerHTML = parseInt(lis[i].innerHTML) + n;
+      lis[i].innerHTML = lis[i].innerHTML + n;
     }
 
 };
