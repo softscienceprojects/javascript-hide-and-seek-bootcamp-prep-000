@@ -20,7 +20,8 @@ function increaseRankBy(n) {
       .querySelectorAll('ul.ranked-list li');
 
     for (let i = 0; i < lis.length; i++) {
-      lis[i].innerHTML = (i + increaseRank).toString();
+    //  lis[i].innerHTML = (i + increaseRank).toString();
+      lis[i].innerHTML = lis[i].innerHTML + n;
     }
 
 };
