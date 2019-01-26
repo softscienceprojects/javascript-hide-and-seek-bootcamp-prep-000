@@ -23,7 +23,6 @@ function increaseRankBy(n) {
       lis[i].innerHTML = (i + increaseRank).toString();
     }
 
-
 };
 
 function deepestChild() {
